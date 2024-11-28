@@ -1,0 +1,150 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .checkout-form {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .checkout-form h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .checkout-form input,
+  .checkout-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+  }
+  
+  .delivery-options,
+  .payment-options {
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-info {
+    margin-top: 20px;
+  }
+  
+  .credit-card-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .credit-card-details input {
+    width: 48%;
+  }
+  
+  .checkout-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a0f23;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .checkout-form button:hover {
+    background-color: #333;
+  }
+  
+  .order-summary {
+    width: 35%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .order-item-details {
+    flex: 1;
+  }
+  
+  .order-item-details h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .order-item-details p {
+    margin: 5px 0 0;
+    color: #888;
+  }
+  
+  .order-total {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .order-total p,
+  .order-total h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .order-total span {
+    color: green;
+  }
+  
+  .address-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .address-fields input,
+  .address-fields select {
+    grid-column: span 2;
+  }
+  
+  .address-fields input:nth-child(1),
+  .address-fields input:nth-child(2),
+  .address-fields select,
+  .address-fields input:nth-child(6),
+  .address-fields input:nth-child(7) {
+    grid-column: span 1;
+  }
+  

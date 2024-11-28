@@ -1,0 +1,609 @@
+/* Copiar el contenido de Cart.css */
+@import 'primeicons/primeicons.css';
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+
+.cart {
+  padding: 20px;
+}
+
+.cart h2 {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+}
+
+.cart-summary {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-summary h3 {
+  margin-bottom: 15px;
+}
+
+.cart-summary p {
+  margin-bottom: 5px;
+}
+
+/* Copiar el contenido de Dashboard.css */
+.dashboard {
+  display: flex;
+}
+
+.dashboard-navbar {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.dashboard-navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-navbar ul li {
+  margin-bottom: 10px;
+}
+
+.dashboard-navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.dashboard-navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-navbar ul li.active a {
+  font-weight: bold;
+  color: #000;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Copiar el contenido de Index.css */
+.index {
+  padding: 20px;
+}
+
+.index h2 {
+  margin-bottom: 20px;
+}
+
+.index-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.index-item img {
+  width: 100px;
+  height: auto;
+}
+
+.index-summary {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.index-summary h3 {
+  margin-bottom: 15px;
+}
+
+.index-summary p {
+  margin-bottom: 5px;
+}
+
+/* Copiar el contenido de Navbar.css */
+
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Agregar un borde inferior para separar la barra de navegación del contenido */
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black; /* Asegurar que el texto del brand sea negro */
+  margin-right: 20px;
+}
+.navbar .navbar-brand .brand-link {
+  color: black; /* Cambia este valor al color que prefieras, por ejemplo, #000 para negro */
+  text-decoration: none;
+}
+
+
+.navbar .navbar-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar .navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar .navbar-links li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar .navbar-links li a:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search-form {
+  display: flex; 
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar .search-form input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.navbar .search-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .search-form button:hover {
+  background-color: #555;
+}
+
+.navbar .navbar-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navbar .navbar-icons a {
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.navbar .navbar-icons a:hover {
+  color: #333;
+}
+
+.navbar .cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0 6px;
+  font-size: 0.8em;
+  vertical-align: top;
+}
+
+/* Estilo para la imagen del producto */
+.product-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+/* Estilo para el input de descuento */
+.discount-input {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilo para el precio original */
+.original-price {
+  text-decoration: line-through;
+  color: red;
+  margin-right: 10px;
+}
+
+/* Estilo para el precio con descuento */
+.discounted-price {
+  font-weight: bold;
+  color: green;
+}
+
+
+
+/* Copiar el contenido de Product.css */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product p {
+  color: #888;
+  font-size: 1em;
+}
+
+.product button {
+  padding: 10px;
+  background-color: #0a0f23;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #333;
+}
+
+/* Estilo para los detalles del producto */
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 1px;  /* Reducir el espacio entre la imagen y los datos */
+}
+
+.product-detail-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detail-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-detail-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #000;
+}
+
+.product-detail-info h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.product-detail-info p {
+  margin: 5px 0;
+}
+
+.product-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sizes {
+  display: flex;
+  gap: 10px;
+}
+
+.size-button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+}
+
+.size-button.selected {
+  background-color: #0a0f23;
+  color: white;
+}
+
+.quantity-input {
+  width: 60px;
+  text-align: center;
+}
+
+.product-detail-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-to-cart-button, .go-to-cart-button {
+  padding: 10px 20px;
+  background-color: #0a0f23;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover, .go-to-cart-button:hover {
+  background-color: #333;
+}
+
+.original-price {
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.discounted-price {
+  color: rgb(20, 163, 25);
+}
+
+
+/* Copiar el contenido de SearchResults.css */
+.search-results {
+  padding: 20px;
+}
+
+.search-results h2 {
+  margin-bottom: 20px;
+}
+
+.search-results-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-results-item img {
+  width: 100px;
+  height: auto;
+}
+
+.search-results-summary {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.search-results-summary h3 {
+  margin-bottom: 15px;
+}
+
+.search-results-summary p {
+  margin-bottom: 5px;
+}
+
+/* Estilo para la barra de navegación de administración */
+.admin-navbar {
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+}
+
+.admin-navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-navbar ul li {
+  margin-bottom: 10px;
+}
+
+.admin-navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.admin-navbar ul li a:hover,
+.admin-navbar ul li.active a {
+  text-decoration: underline;
+}
+
+/* Estilo para el contenido de administración */
+.admin-content {
+  margin-left: 220px; /* espacio para la barra de navegación */
+  padding: 20px;
+}
+
+/* Estilo para los nuevos componentes */
+.business-intelligence, .reports, .inventory {
+  padding: 20px;
+}
+
+.business-intelligence h2, .reports h2, .inventory h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilo específico para el componente de inventario */
+.inventory {
+  padding: 20px;
+}
+
+.inventory h2 {
+  margin-bottom: 20px;
+}
+
+.inventory .inventory-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inventory .inventory-list .inventory-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.inventory .inventory-list .inventory-header span {
+  flex: 1;
+  text-align: center;
+}
+
+.inventory .inventory-list .inventory-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.inventory .inventory-list .inventory-item .product-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.inventory .inventory-list .inventory-item span {
+  flex: 1;
+  text-align: center;
+}
+
+.inventory .inventory-list .btn-delete {
+  background-color: #0a0f23;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inventory .inventory-list .btn-delete:hover {
+  background-color: #333;
+}
+
+/* Estilo específico para el carrito de compras */
+.cart {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cart-item-details p {
+  margin: 0;
+}
+
+.cart-item .btn-delete {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.cart-item .btn-delete:hover {
+  background-color: #c9302c;
+}
+
+.cart-summary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-proceed {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-proceed:hover {
+  background-color: #4cae4c;
+}
+
+
